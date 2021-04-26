@@ -187,7 +187,7 @@ def simulateCollision(N = 50,
     #create figure objects for animatoin putposes
     fig, ax = plt.subplots()
     ax = plt.axes(xlim=(0, box.length), ylim=(0, box.height))
-    
+    fig.set_size_inches(6,6)
     ax.set_xlabel("Horizontal Displacement")   
     ax.set_ylabel("Vertical Displacement")
     ax.set_title("Brownian Motion Simulation")
